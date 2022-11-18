@@ -1,0 +1,29 @@
+package Selenium_Java.Basics_of_Java;
+
+import java.util.ArrayList;
+
+public class Convert_the_Java_List_into_Array {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Object> languages = new ArrayList<Object>();
+
+	    // Add elements in the list
+	    languages.add("Java");
+	    languages.add("Python");
+	    languages.add("JavaScript");
+	    System.out.println("ArrayList: " + languages);
+
+	    // Create a new array of String type
+	    String[] arr = new String[languages.size()];
+
+	    // Convert ArrayList into the string array
+	    languages.toArray(arr);
+	    System.out.print("Array: ");
+	    for(String item:arr) {
+	      System.out.print(item+", ");
+	    }
+
+	}
+
+}
