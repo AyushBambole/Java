@@ -3,7 +3,7 @@ package Selenium_Java.Basics_of_Java;
 //We create an object of scanner class
 import java.util.Scanner;
 
-public class Addition_of_Integer {
+public class AdditionOfInteger {
 
 	//Reader takes Inputs
 	private static Scanner reader;
