@@ -1,6 +1,6 @@
 package Selenium_Java.Basics_of_Java;
 
-public class Alphabets_A_to_Z_using_loop {
+public class AlphabetUsingLoop {
 
 	public static void main(String[] args) {
 		
