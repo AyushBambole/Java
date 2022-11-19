@@ -1,6 +1,6 @@
 package Selenium_Java.Basics_of_Java;
 
-public class Adding_Two_Matrix_Using_Multi_dimensional_Arrays {
+public class AddingTwoMatrix {
 
 	public static void main(String[] args) {
 		
